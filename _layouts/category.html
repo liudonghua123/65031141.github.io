@@ -27,11 +27,6 @@ layout: default
               </a>
             </h3>
 
-            <!-- 如果配置文件里设置为现实摘要，就现实摘要 -->
-            {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-            {%- endif -%}
-
           </li>
         {% endif %}
       {%- endfor -%}

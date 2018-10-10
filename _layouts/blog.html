@@ -25,7 +25,7 @@ layout: default
 
         <!-- 如果配置文件里设置为现实摘要，就现实摘要 -->
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ post.excerpt | strip_html | strip_newlines | truncate: 128 }}
         {%- endif -%}
 
       </li>

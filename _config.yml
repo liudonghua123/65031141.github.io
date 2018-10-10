@@ -50,7 +50,8 @@ plugins:
 minima:
   date_format: "%Y-%m-%d"
 
-show_excerpts: false
+# 是否显示摘要
+show_excerpts: true
 
 header_pages:
   - guides.md
