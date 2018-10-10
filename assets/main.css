@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -525,7 +526,8 @@ table {
   color: #555; }
 
 .post-tags {
-  text-align: right; }
+  font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif;
+  padding: 20px; }
 
 .card {
   background: #eee;
@@ -547,3 +549,26 @@ table {
 a:link, a:visited {
   color: #555;
   text-decoration: #ddd; }
+
+.shift-right {
+  text-align: right; }
+
+.pv-count {
+  font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif;
+  font-weight: bold; }
+
+.pv-count-title {
+  background: #ccc;
+  padding-left: 5px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #fff; }
+
+.pv-count-number {
+  background: #aaa;
+  padding-left: 2px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #fff; }
