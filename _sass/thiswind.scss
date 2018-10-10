@@ -1,4 +1,9 @@
 // for tag cloud and archives
+
+body {
+  font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif;;
+}
+
 .tag-cloud {
   list-style: none;
   padding: 0;
@@ -26,15 +31,18 @@
 
 .card {
   background: #eee;
-  padding: 5px;
+  padding: 8px;
   color: #555;
 }
 .card-element {
   background: #ddd;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 .card-header {
   color: #555;
-  padding: 5px;
   font-weight: bold;
   font-size: 2em;
 }
