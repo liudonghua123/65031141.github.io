@@ -8,17 +8,27 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <!-- {{ page.date | date: date_format }} -->
-        {% if page.last_modified %}
-          更新:{{ page.last_modified | date: date_format }}
+        <!-- 如果页面有更新时间，就显示更新时间，否则就显示创建时间 -->
+        <span class="post-meta">更新时间:</span>
+        {% if page.last_modified_at %}
+          <span class="post-meta">{{ page.last_modified_at | date: date_format}}</span>
+        {% else %}
+          <span class="post-meta">{{ page.date | date: date_format}}</span>
         {% endif %}
       </time>
+
+      • {% include post-tags.html %}
+
+
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+        • 作者 : <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+
+    </p>
+
   </header>
 
-  {% include post-tags.html %}
+
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
