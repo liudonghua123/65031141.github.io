@@ -58,3 +58,10 @@ header_pages:
   - downloads.md
   - tutorials.md
   - faq.md
+
+jekyll_compose:
+  auto_open: true
+  post_default_front_matter:
+    published: true
+    category:
+    tags:
