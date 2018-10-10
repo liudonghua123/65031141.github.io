@@ -1,0 +1,48 @@
+---
+layout: page
+permalink: /tags/
+---
+
+{% include tag_cloud.html %}
+
+<div>
+  <div id="archives">
+  {% for tag in site.tags %}
+    <div class="archive-group">
+
+      <!-- 接收锚点参数，必须写在同一行才能生效 -->
+      {% capture tag_name %}{{ tag | first }}{% endcapture %}
+
+      <h4 class="archive-item" id="#{{ tag_name | slugize }}">
+        关键字: {{ tag_name }}
+      </h4>
+
+      <a name="{{ tag_name | slugize }}"></a>
+
+      <ul>
+        {% for post in site.tags[tag_name] %}
+          <li>
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+              <span>
+                <a class="post-meta" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </span>
+
+              <!-- 显示更新时间 -->
+              <span class="post-meta">&nbsp;</span>
+              <span class="post-meta">{{ post.last_modified_at | date: date_format}}</span>
+
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+
+  {% endfor %}
+
+
+</div>
+
+<a class="page-link" href="/">返回</a>

@@ -1,0 +1,50 @@
+// for tag cloud and archives
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  font-size: 16px;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0;
+  }
+}
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-left: 10px solid #aaa;
+}
+.archive-item {
+  margin-left: 5px;
+  color: #555;
+}
+.post-tags {
+  text-align: right;
+}
+
+.card {
+  background: #eee;
+  padding: 5px;
+  color: #555;
+}
+.card-element {
+  background: #ddd;
+}
+.card-header {
+  color: #555;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
+.footer-link {
+  color: #555;
+}
+
+a:link,a:visited{
+  color: #555;
+  text-decoration: #ddd;
+}
