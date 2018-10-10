@@ -24,6 +24,12 @@ layout: default
     {{ content }}
   </div>
 
+
+  <div class="shift-right">
+    {% include page-pv-count.html %}
+  </div>
+
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

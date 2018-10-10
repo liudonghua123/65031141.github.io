@@ -1,11 +1,17 @@
-<div class="post-tags">
-  Tags:
+<div class="post-tags post-meta">
   {% if post %}
     {% assign tags = post.tags %}
   {% else %}
     {% assign tags = page.tags %}
   {% endif %}
+
+  关键字:
+
   {% for tag in tags %}
-  <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
+    <a href="/tags/#{{tag|slugize}}">{{tag}}</a>
+
+    {% unless forloop.last %}
+      ,
+    {% endunless %}
   {% endfor %}
 </div>
