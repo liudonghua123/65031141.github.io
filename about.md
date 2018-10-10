@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于我们
-permalink: /About
+permalink: /About/
 ---
 
 <p>云南大学信息技术中心运维服务部主页</p>
