@@ -9,6 +9,21 @@ main page of Yunnan University Information Technology Center Operation and Maint
 
 change log
 
+2. 网站框架完成，开始填充内容
+  
+  完成了：
+  - 解析域名
+  - 设计并制作主页内容
+  
+  TODO：
+  - 制作资源下载站
+  - 流程图支持
+  - 数学公式支持
+  - 代码高亮支持
+  - 搜索功能
+  
+  *2018.11.19 15:31*
+
 1. 网站基本框架完成
 
   完成了：
