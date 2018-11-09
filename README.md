@@ -7,7 +7,9 @@ main page of Yunnan University Information Technology Center Operation and Maint
 
 预览：[https://65031141.github.io](https://65031141.github.io)
 
-change log
+## change log
+
+---
 
 2. 网站框架完成，开始填充内容
   
@@ -23,6 +25,8 @@ change log
   - 搜索功能
   
   *2018.11.19 15:31*
+
+---
 
 1. 网站基本框架完成
 
@@ -44,3 +48,5 @@ change log
   - 搜索功能
   
   *2018.10.11 01:54*
+
+---
