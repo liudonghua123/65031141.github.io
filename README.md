@@ -9,8 +9,6 @@ main page of Yunnan University Information Technology Center Operation and Maint
 
 ## change log
 
----
-
 2. 网站框架完成，开始填充内容
   
   完成了：
