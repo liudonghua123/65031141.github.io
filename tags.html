@@ -14,7 +14,7 @@ permalink: /tags/
       {% capture tag_name %}{{ tag | first }}{% endcapture %}
 
       <h4 class="archive-item" id="#{{ tag_name | slugize }}">
-        关键字: {{ tag_name }}
+        {{ tag_name }}
       </h4>
 
       <a name="{{ tag_name | slugize }}"></a>
