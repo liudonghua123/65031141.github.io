@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 关于Globelmposter-V3.0勒索病毒事件相关事项
-date: 2019-03-11 14:42 +0800
-last_modified_at:2019-03-11 14:42 +0800
+title: GlobeImposter勒索病毒相关
+date: 2019-03-11 14:43 +0800
+last_modified_at: 2019-03-11 14:44 +0800
 category: 使用教程
 tags:
+  - GlobeImposter
   - 勒索病毒
-  - Globelmposter
 ---
 
 # 请按照附件提示进行操作
