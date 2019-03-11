@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 关于Globelmposter-V3.0勒索病毒事件相关事项
-date: 
-last_modified_at:
+date: 2019-03-11 14:42 +0800
+last_modified_at:2019-03-11 14:42 +0800
 category: 使用教程
 tags:
   - 勒索病毒
